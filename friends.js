@@ -1,9 +1,13 @@
 var Bobby = true
 var James = false
+var Steve = false
 
-if (Bobby === true) {
+if (Bobby === false) {
   console.log("Bobby is my best friend")
 }
-else {James = false} {
+else if (Steve === false) {
+  console.log("Steve is a very good friend")
+}
+else {James === true} {
   console.log("James is a friend")
 }
